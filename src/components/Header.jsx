@@ -100,14 +100,14 @@ export default function Header() {
                     : "translate-x-full opacity-0"
                 }`}
               >
-                <div className="mt-28 mb-8 mr-0.5 w-fit ml-auto">
+                <div className="mx-auto">
                   <img
                     src={royal_logo2}
                     alt="Logo"
-                    className="w-18 mx-auto  h-auto object-cover"
+                    className="size-20 sm:size-24 mx-auto  object-cover my-6"
                   />
-                  <hr className="border-white my-4" />
-                  <ul className=" text-center  space-y-8 px-5 !text-sm">
+                  <hr className="border-white/50" />
+                  <ul className=" text-center  space-y-8 sm:space-y-12 px-5 text-3xl sm:text-4xl mt-8 sm:mt-16">
                     {links.map((link) => (
                       <li key={link.id}>
                         <Link

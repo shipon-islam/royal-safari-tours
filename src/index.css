@@ -43,8 +43,8 @@
   .header-gradient {
     background: linear-gradient(
       180deg,
-      rgba(44, 183, 117, 0.79) 0%,
-      rgba(222, 141, 61, 0.79) 66.21%
+      rgba(44, 183, 117) 0%,
+      rgba(222, 141, 61) 66.21%
     );
   }
   .hoverEffect {

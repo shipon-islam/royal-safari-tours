@@ -6,15 +6,12 @@ import {
   FireIcon,
   PaymentIcon2,
 } from "../../components/svg-icons";
-import { UseCartState } from "../../context/CartContextProvider";
-import CartItemsPopup from "./CartItemsPopup";
 export default function DetailSection({ packages }) {
   const [tabIndex, setTabIndex] = useState(1);
   const [cartItem, setCartItem] = useState(1);
-  const { cartShowHandler } = UseCartState();
+
   return (
     <section className="container py-6 sm:py-20 relative">
-      <CartItemsPopup />
       <button className="bg-green p-3.5 font-semibold text-white  gap-2 items-center rounded-sm fixed right-10 top-4/5 cursor-pointer hidden  lg:flex">
         <span>
           Recently <br /> Viewed
@@ -26,14 +23,14 @@ export default function DetailSection({ packages }) {
           <div>
             <img
               src={packages?.image}
-              alt={packages.name}
+              alt={packages?.name}
               className=" max-h-[770px] h-full  w-full object-cover"
             />
           </div>
           <div>
             <div className="flex items-center gap-4">
               <Rating
-                rating={packages.rating}
+                rating={packages?.rating}
                 className="text-yellow-400 size-4 sm:size-5"
               />
               <div className="flex gap-2 items-center">
@@ -47,17 +44,12 @@ export default function DetailSection({ packages }) {
               <h5 className="font-bold text-xl sm:text-2xl md:text-3xl my-6">
                 Official Prices May Vary!
               </h5>
-              <p className="leading-[26px]">
-                Step into the vibrant cityscape of Singapore where modern
-                marvels meet cultural treasures. This 4 days tour is the perfect
-                balance of exploration and leisure, curated for travelers who
-                want it all.
-              </p>
+              <p className="leading-[26px]">{packages?.description?.details}</p>
             </div>
             <div className="flex  items-center gap-2 sm:gap-10 mt-8">
               <h5 className="font-bold">Duration</h5>
               <button className="bg-black text-white px-10 py-2 font-semibold">
-                3 Night and 4 Days
+                {packages?.duration}
               </button>
             </div>
             <div className="mt-15 md:mt-48 max-w-[550px] text-sm lg:text-sm xl:text-base">
@@ -75,7 +67,7 @@ export default function DetailSection({ packages }) {
                   <span>Share</span>
                 </button>
               </div>
-              <div className="flex flex-row  gap-2 mt-10">
+              <div className="flexs flex-row hidden  gap-2 mt-10">
                 <div className="border border-black bg-white py-2 px-2 flex items-center justify-center gap-8 font-medium text-lg w-fit text-gray-600 sm:min-w-36">
                   <button
                     className="hover:text-orange hoverEffect cursor-pointer"
@@ -102,9 +94,15 @@ export default function DetailSection({ packages }) {
                   Add to cart
                 </button>
               </div>
-              <button className="block w-full px-8 py-4 font-medium bg-green text-white mt-4 cursor-pointer hover:bg-black hoverEffect">
-                Buy it now
-              </button>
+              <a
+                href="https://api.whatsapp.com/send?phone=8801898334733"
+                className="flex items-center justify-center gap-4 w-full px-8 py-4 font-medium bg-green text-white mt-4 cursor-pointer hover:bg-black hoverEffect text-xl rounded-md"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icon icon="akar-icons:whatsapp-fill" width="25" height="25" />
+                <span>+8801898-334733</span>
+              </a>
               <hr className="border-1 border-gray-200 mt-8" />
               <ul className="space-y-5 mt-4 text-sm sm:text-base">
                 <li className="flex  gap-2 items-center">
@@ -116,20 +114,16 @@ export default function DetailSection({ packages }) {
                   />
                   <span>
                     <strong className="text-gray-600">
-                      Estimated Travel Window:
+                      Estimated Travel Window
                     </strong>
-                    {"  "}
-                    Jan23 - Jan26
                   </span>
                 </li>
                 <li className="flex  gap-2 items-center">
                   <BookingCardIcon className="size-5" />
                   <span>
                     <strong className="text-gray-600">
-                      Estimated Travel Window:
+                      Estimated Travel Window
                     </strong>
-                    {"  "}
-                    Jan23 - Jan26
                   </span>
                 </li>
               </ul>
@@ -158,7 +152,8 @@ export default function DetailSection({ packages }) {
                   : "border-transparent"
               }`}
             >
-              Additional <span className="hidden sm:block">Information</span>
+              Additional{" "}
+              <span className="hidden sm:inline-block">Information</span>
             </button>
             <button
               onClick={() => setTabIndex(3)}
@@ -173,33 +168,21 @@ export default function DetailSection({ packages }) {
           </div>
           {tabIndex === 1 && (
             <div label="description" className="p-4 sm:p-8">
-              <p>
-                Get ready to discover Singapore – a dazzling fusion of modern
-                innovation and cultural heritage. From the iconic Marina Bay
-                Sands skyline to the lush serenity of Gardens by the Bay, this
-                4-day escape is a perfect blend of urban thrills,
-                family-friendly fun, and relaxing experiences. Whether you’re
-                strolling through Orchard Road or enjoying local delights at a
-                Hawker Center, every moment in Singapore is unforgettable.
-              </p>
+              <p>{packages?.description?.details}</p>
               <div className="mt-8">
                 <h5 className="font-bold">This Trip Includes</h5>
                 <ul className="space-y-2 mt-4 text-base list-disc ml-5">
-                  <li>All Ground Transfers and Daily Transport</li>
-                  <li>English-Speaking Guide Throughout the Trip</li>
-                  <li>24/7 Emergency Travel Assistance</li>
-                  <li>Complimentary Trip Photography</li>
-                  <li>Personalized Travel Tips for Every Stop</li>
+                  {packages?.description?.tripIncludes.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
               </div>
               <div className="mt-8">
                 <h5 className="font-bold">Additional Information</h5>
                 <ul className="space-y-2 mt-4 text-base list-disc ml-5">
-                  <li>Instant Booking Confirmation</li>
-                  <li>Accessibility Support Available on Request</li>
-                  <li>Light Luggage Recommended</li>
-                  <li>Complimentary Trip Photography</li>
-                  <li>Arrival 30 Minutes Prior to Departure Required</li>
+                  {packages?.description?.additionalInfo.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
               </div>
             </div>
@@ -209,10 +192,9 @@ export default function DetailSection({ packages }) {
               <div>
                 <h5 className="font-bold">More Information</h5>
                 <ul className="space-y-2 mt-4 text-base">
-                  <li>Instant Booking Confirmation</li>
-                  <li>English-Speaking Guide Throughout the Trip</li>
-                  <li>Light Luggage Recommended</li>
-                  <li>Arrival 30 Minutes Prior to Departure Required</li>
+                  {packages?.additionalInfo.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
               </div>
             </div>

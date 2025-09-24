@@ -77,7 +77,7 @@ export default function TourCard({ tour_package, frameType = "white", type }) {
         </Link>
         <div className="mt-2">
           <div className="flex justify-between items-center">
-            <h4 className="font-bold text-sm xxs:text-base sm:text-xl">
+            <h4 className="font-bold text-sm xxs:text-base sm:text-xl capitalize">
               {tour_package.title}
             </h4>
 
