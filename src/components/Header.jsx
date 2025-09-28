@@ -124,14 +124,14 @@ export default function Header() {
                   </ul>
                   <a
                     href="https://api.whatsapp.com/send?phone=8801898334733"
-                    className="w-fit text-nowrap flex items-center justify-center gap-2  px-8 py-2 font-medium bg-green text-white  cursor-pointer hover:bg-black hoverEffect text-lg rounded-md absolute bottom-10 left-1/2 -translate-x-1/2"
+                    className="w-fit text-nowrap flex items-center justify-center gap-2  px-8 py-3 font-medium bg-green text-white  cursor-pointer hover:bg-black hoverEffect text-xl rounded-md absolute bottom-28 left-1/2 -translate-x-1/2"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Icon
                       icon="akar-icons:whatsapp-fill"
-                      width="20"
-                      height="20"
+                      width="21"
+                      height="21"
                     />
                     <span>+8801898-334733</span>
                   </a>
