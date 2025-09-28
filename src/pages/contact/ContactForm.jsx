@@ -19,7 +19,7 @@ export default function ContactForm() {
         <div>
           <div>
             <h5 className="font-semibold text-3xl sm:text-4xl lg:text-5xl text-orange font-inter">
-              Contact Section
+              GET IN TOUCH
             </h5>
             <p className="mt-3 lg:mt-4 mb-8 lg:mb-10 font-medium sm:text-lg font-roboto text-darkSlate">
               Have a question or comment? To contact us, please complete the

@@ -78,7 +78,7 @@ export default function Header() {
 
               <button
                 onClick={() => setIsShowNav((prev) => !prev)}
-                className={`cursor-pointer lg:hidden z-[999]  mr-6 ${
+                className={`cursor-pointer lg:hidden z-[1010]  mr-6 ${
                   scrolled
                     ? isShowNav
                       ? "text-white"

@@ -33,7 +33,7 @@ export default function DetailSection({ packages }) {
                 rating={packages?.rating}
                 className="text-yellow-400 size-4 sm:size-5"
               />
-              <div className="flex gap-2 items-center">
+              <div className="flexs hidden gap-2 items-center">
                 <FireIcon />
                 <p className="text-green font-medium text-sm xxs:text-base">
                   29 sold In Last 7 Hours
@@ -53,7 +53,7 @@ export default function DetailSection({ packages }) {
               </button>
             </div>
             <div className="mt-15 md:mt-48 max-w-[550px] text-sm lg:text-sm xl:text-base">
-              <div className="flex flex-col xxs:flex-row gap-2 sm:gap-2  items-center justify-between">
+              <div className="sflex flex-col xxs:flex-row gap-2 sm:gap-2  items-center justify-between hidden">
                 <button className="flex items-center gap-1 font-medium">
                   <Icon icon="mdi-light:heart" width="22" height="22" />
                   <span>Add to wishlist</span>
@@ -104,7 +104,7 @@ export default function DetailSection({ packages }) {
                 <span>+8801898-334733</span>
               </a>
               <hr className="border-1 border-gray-200 mt-8" />
-              <ul className="space-y-5 mt-4 text-sm sm:text-base">
+              <ul className="space-y-5 mt-4 text-sm sm:text-base hidden">
                 <li className="flex  gap-2 items-center">
                   <Icon
                     icon="material-symbols:delivery-truck-speed-outline"
@@ -154,16 +154,6 @@ export default function DetailSection({ packages }) {
             >
               Additional{" "}
               <span className="hidden sm:inline-block">Information</span>
-            </button>
-            <button
-              onClick={() => setTabIndex(3)}
-              className={`py-2 font-bold hover:text-green  hoverEffect hover:border-green cursor-pointer border-b-2 relative top-[1px] ${
-                tabIndex === 3
-                  ? "border-green text-green"
-                  : "border-transparent"
-              }`}
-            >
-              Reviews
             </button>
           </div>
           {tabIndex === 1 && (
