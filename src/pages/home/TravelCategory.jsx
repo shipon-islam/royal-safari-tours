@@ -67,8 +67,8 @@ export default function TravelCategory() {
         </p>
         <Link to="/contact">
           <ShapeButton
-            name="Book To Start"
-            className="group-hover:text-black"
+            name="BOOK TO START"
+            className="group-hover:text-black "
           />
         </Link>
       </div>

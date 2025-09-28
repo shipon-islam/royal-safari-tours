@@ -30,13 +30,13 @@
     @apply bg-[url('/images/banners/bg-for-body2.png'),linear-gradient(#F0ECDC,#F0ECDC)] bg-center;
   }
   .bg-banner-subscription {
-    @apply bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/banners/banner2.jpg')] bg-center bg-cover;
+    @apply bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/banners/banner2.webp')] bg-center bg-cover;
   }
   .bg-about-banner {
-    @apply bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/images/banners/about-banner.jpg')] bg-center bg-cover;
+    @apply bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/images/banners/about-banner.webp')] bg-center bg-cover;
   }
   .bg-footer-banner {
-    @apply bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/images/banners/footer-banner.jpg')] bg-center bg-cover;
+    @apply bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/images/banners/footer-banner.webp')] bg-center bg-cover;
   }
 }
 @layer utilities {

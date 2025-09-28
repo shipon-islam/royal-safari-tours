@@ -1,10 +1,10 @@
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import china from "../../assets/story/china.jpg";
-import maldives from "../../assets/story/maldives.jpg";
-import nepal from "../../assets/story/nepal.jpg";
-import srilanka from "../../assets/story/srilanka.jpg";
-import thailand from "../../assets/story/thailand.jpg";
+import china from "../../assets/story/china.webp";
+import maldives from "../../assets/story/maldives.webp";
+import nepal from "../../assets/story/nepal.webp";
+import srilanka from "../../assets/story/srilanka.webp";
+import thailand from "../../assets/story/thailand.webp";
 
 import StoryCard from "../../components/StoryCard";
 const stories = [

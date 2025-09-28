@@ -1,7 +1,7 @@
 export const tour_packages = [
   {
     id: 1,
-    image: "/images/tour-package/srilanka/15499.jpeg",
+    image: "/images/tour-package/srilanka/15499.webp",
     title: "Sigiriya • Kandy • Colombo",
     category: "srilanka",
     price: "43,500",
@@ -41,7 +41,7 @@ export const tour_packages = [
   {
     id: 10,
     image:
-      "/images/tour-package/bangladesh/481065103_122191915988252080_6829313308768125114_n.jpg",
+      "/images/tour-package/bangladesh/481065103_122191915988252080_6829313308768125114_n.webp",
     title: "Sylhet",
     category: "bangladesh",
     price: "1,399",
@@ -77,7 +77,7 @@ export const tour_packages = [
   {
     id: 16,
     image:
-      "/images/tour-package/nepal/533477126_122223586562252080_3825507708987867031_n.jpg",
+      "/images/tour-package/nepal/533477126_122223586562252080_3825507708987867031_n.webp",
     title: "Kathmundu",
     category: "nepal",
     price: "16,500",
@@ -116,7 +116,7 @@ export const tour_packages = [
   {
     id: 13,
     image:
-      "/images/tour-package/maldives/517477144_122217205388252080_7421407302023780902_n.jpg",
+      "/images/tour-package/maldives/517477144_122217205388252080_7421407302023780902_n.webp",
     title: "Hotel Combo: Marina + Avoca Inn",
     category: "maldives",
     price: "27,900",
@@ -155,7 +155,7 @@ export const tour_packages = [
   },
   {
     id: 4,
-    image: "/images/tour-package/srilanka/15500.jpeg",
+    image: "/images/tour-package/srilanka/15500.webp",
     title: "Kandy • Nuwara Eliya • Ella • Colombo",
     category: "srilanka",
     price: "43,900",
@@ -197,7 +197,7 @@ export const tour_packages = [
   {
     id: 23,
     image:
-      "/images/tour-package/thailand/498128270_122208163508252080_1043866001400738660_n.jpg",
+      "/images/tour-package/thailand/498128270_122208163508252080_1043866001400738660_n.webp",
     title: "Bangkok, Pattaya, Coral Island",
     category: "thailand",
     price: "69,900",
@@ -230,7 +230,7 @@ export const tour_packages = [
   },
   {
     id: 5,
-    image: "/images/tour-package/srilanka/15501.jpeg",
+    image: "/images/tour-package/srilanka/15501.webp",
     title: "Kandy • Nuwara Eliya • Benta • Colombo",
     category: "srilanka",
     price: "49,900",
@@ -271,7 +271,7 @@ export const tour_packages = [
   },
   {
     id: 6,
-    image: "/images/tour-package/srilanka/15502.jpeg",
+    image: "/images/tour-package/srilanka/15502.webp",
     title: "Kandy • Ella",
     category: "srilanka",
     price: "31,900",
@@ -312,7 +312,7 @@ export const tour_packages = [
   {
     id: 7,
     image:
-      "/images/tour-package/bangladesh/476963727_122187918482252080_5424159072217857174_n.jpg",
+      "/images/tour-package/bangladesh/476963727_122187918482252080_5424159072217857174_n.webp",
     title: "sajek valley",
     category: "bangladesh",
     price: "3,499",
@@ -348,7 +348,7 @@ export const tour_packages = [
   {
     id: 8,
     image:
-      "/images/tour-package/bangladesh/476978831_122187919274252080_7383935039835532059_n.jpg",
+      "/images/tour-package/bangladesh/476978831_122187919274252080_7383935039835532059_n.webp",
     title: "rangamati",
     category: "bangladesh",
     price: "14,99",
@@ -383,7 +383,7 @@ export const tour_packages = [
   },
   {
     id: 3,
-    image: "/images/tour-package/srilanka/15497.jpeg",
+    image: "/images/tour-package/srilanka/15497.webp",
     title: "Colombo • Bentota",
     category: "srilanka",
     price: "48,900",
@@ -422,7 +422,7 @@ export const tour_packages = [
   {
     id: 9,
     image:
-      "/images/tour-package/bangladesh/480744463_122191439930252080_7873249508093929957_n.jpg",
+      "/images/tour-package/bangladesh/480744463_122191439930252080_7873249508093929957_n.webp",
     title: "cox's bazar",
     category: "bangladesh",
     price: "2,999",
@@ -459,7 +459,7 @@ export const tour_packages = [
   {
     id: 12,
     image:
-      "/images/tour-package/maldives/516873867_122217205394252080_5106339833138535035_n.jpg",
+      "/images/tour-package/maldives/516873867_122217205394252080_5106339833138535035_n.webp",
     title: "Hard Rock Resort",
     category: "maldives",
     price: "78,900",
@@ -500,7 +500,7 @@ export const tour_packages = [
   {
     id: 14,
     image:
-      "/images/tour-package/maldives/517673337_122217205376252080_1014846706217480811_n1.jpg",
+      "/images/tour-package/maldives/517673337_122217205376252080_1014846706217480811_n.webp",
     title: "San Siyam + Avoca Inn Combo",
     category: "maldives",
     price: "66,900",
@@ -537,7 +537,7 @@ export const tour_packages = [
   {
     id: 15,
     image:
-      "/images/tour-package/maldives/517683948_122217205382252080_6439145938118167480_n.jpg",
+      "/images/tour-package/maldives/517683948_122217205382252080_6439145938118167480_n.webp",
     title: "Fihalhohi Island Resort Hotel, Crystal Sands Hotel",
     category: "maldives",
     price: "56,900",
@@ -571,7 +571,7 @@ export const tour_packages = [
   },
   {
     id: 2,
-    image: "/images/tour-package/srilanka/15498.jpeg",
+    image: "/images/tour-package/srilanka/15498.webp",
     title: "Negombo • Wilpattu",
     category: "srilanka",
     price: "32,900",
@@ -612,7 +612,7 @@ export const tour_packages = [
   {
     id: 11,
     image:
-      "/images/tour-package/bangladesh/481268799_122192379224252080_8541591813321427625_n.jpg",
+      "/images/tour-package/bangladesh/481268799_122192379224252080_8541591813321427625_n.webp",
     title: "sundarban",
     category: "bangladesh",
     price: "22,000",
@@ -648,7 +648,7 @@ export const tour_packages = [
   {
     id: 17,
     image:
-      "/images/tour-package/nepal/534375987_122223586604252080_6381032114163550414_n.jpg",
+      "/images/tour-package/nepal/534375987_122223586604252080_6381032114163550414_n.webp",
     title: "Chitwan ",
     category: "nepal",
     price: "41,200",
@@ -687,7 +687,7 @@ export const tour_packages = [
   {
     id: 18,
     image:
-      "/images/tour-package/nepal/534385004_122223586550252080_2024382614783009837_n.jpg",
+      "/images/tour-package/nepal/534385004_122223586550252080_2024382614783009837_n.webp",
     title: "Pokhara & Kathmandu",
     category: "nepal",
     price: "32,500",
@@ -726,7 +726,7 @@ export const tour_packages = [
   {
     id: 19,
     image:
-      "/images/tour-package/nepal/534593861_122223586556252080_3339348182590477302_n.jpg",
+      "/images/tour-package/nepal/534593861_122223586556252080_3339348182590477302_n.webp",
     title: "Kathmandu, Pokhara & Nagarkot",
     category: "nepal",
     price: "29,900",
@@ -766,7 +766,7 @@ export const tour_packages = [
   {
     id: 20,
     image:
-      "/images/tour-package/thailand/497708993_122208162362252080_6763226045674536060_n.jpg",
+      "/images/tour-package/thailand/497708993_122208162362252080_6763226045674536060_n.webp",
     title: "PATTAYA",
     category: "thailand",
     price: "56,000",
@@ -805,7 +805,7 @@ export const tour_packages = [
   {
     id: 21,
     image:
-      "/images/tour-package/thailand/497806902_122208162440252080_939084642834134413_n.jpg",
+      "/images/tour-package/thailand/497806902_122208162440252080_939084642834134413_n.webp",
     title: "BANGKOK",
     category: "thailand",
     price: "59,000",
@@ -844,7 +844,7 @@ export const tour_packages = [
   {
     id: 22,
     image:
-      "/images/tour-package/thailand/497840049_122208162494252080_2849204271938585146_n.jpg",
+      "/images/tour-package/thailand/497840049_122208162494252080_2849204271938585146_n.webp",
     title: "CORAL ISLAND",
     category: "thailand",
     price: "6,900",

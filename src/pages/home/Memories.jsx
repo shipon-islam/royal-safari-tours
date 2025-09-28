@@ -9,7 +9,7 @@ export default function Memories() {
           clipPath:
             "polygon(52% 0, 77% 2%, 100% 1%, 100% 98%, 59% 99%, 36% 97%, 0 99%, 0 0, 24% 2%)",
         }}
-        className="bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/images/banners/memories.jpg')] bg-center min-h-[750px] grid items-center"
+        className="bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/images/banners/memories.webp')] bg-center min-h-[750px] grid items-center"
       >
         <div className="flex flex-col lg:flex-row lg:justify-between items-end lg:items-center container max-w-[1520px]">
           <div className="flex-1">

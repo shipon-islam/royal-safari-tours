@@ -7,7 +7,7 @@ const reviews = [
     id: 1,
     name: "John Hendry",
     position: "Tour Manager",
-    avatar: "/images/customers/john.png",
+    avatar: "/images/customers/john.webp",
     rating: 3,
     reviewText:
       "Vitae elementum curabitur vitae nunc sed. Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Blandit massa enim nec dui nunc mattis enim ut tellus.",
@@ -16,7 +16,7 @@ const reviews = [
     id: 2,
     name: "Sharolyn",
     position: "Designer",
-    avatar: "/images/customers/sharolyn.png",
+    avatar: "/images/customers/sharolyn.webp",
     rating: 3,
     reviewText:
       "Proin fermentum leo vel orci porta non pulvinar neque. Lectus mauris ultrices eros in cursus turpis. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar.",
@@ -25,7 +25,7 @@ const reviews = [
     id: 3,
     name: "John Hendry",
     position: "Tour Manager",
-    avatar: "/images/customers/john.png",
+    avatar: "/images/customers/john.webp",
     rating: 3,
     reviewText:
       "Vitae elementum curabitur vitae nunc sed. Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Blandit massa enim nec dui nunc mattis enim ut tellus.",
@@ -34,7 +34,7 @@ const reviews = [
     id: 4,
     name: "Sharolyn",
     position: "Designer",
-    avatar: "/images/customers/sharolyn.png",
+    avatar: "/images/customers/sharolyn.webp",
     rating: 3,
     reviewText:
       "Proin fermentum leo vel orci porta non pulvinar neque. Lectus mauris ultrices eros in cursus turpis. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar.",

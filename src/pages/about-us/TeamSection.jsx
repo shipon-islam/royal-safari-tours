@@ -5,25 +5,25 @@ const teamMembers = [
     id: 1,
     name: "Morgan",
     position: "CEO/Founder",
-    avatar: "/images/team/morgan.jpg",
+    avatar: "/images/team/morgan.webp",
   },
   {
     id: 2,
     name: "Elisheba",
     position: "Manager",
-    avatar: "/images/team/elisheba.jpg",
+    avatar: "/images/team/elisheba.webp",
   },
   {
     id: 3,
     name: "Gelasiana",
     position: "Trip Advisor",
-    avatar: "/images/team/gelasiana.jpg",
+    avatar: "/images/team/gelasiana.webp",
   },
   {
     id: 4,
     name: "Brook Elin",
     position: "Team Leader",
-    avatar: "/images/team/brook-elin.jpg",
+    avatar: "/images/team/brook-elin.webp",
   },
 ];
 export default function TeamSection() {

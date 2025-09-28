@@ -72,7 +72,7 @@ export default function NatureAndBeyond() {
           <div className="mx-auto block w-fit mt-5">
             <ShapeButton
               onClick={() => setShowMore((prev) => !prev)}
-              name={showMore ? "See Less" : "See More"}
+              name={showMore ? "SEE LESS" : "SEE MORE"}
               className="!text-orange "
             />
           </div>

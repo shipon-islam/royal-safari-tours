@@ -40,7 +40,7 @@ export default function Header() {
   }, []);
   return (
     <>
-      <header className="fixed w-full top-0 z-99 font-inter">
+      <header className="fixed w-full top-0 z-[999] font-inter">
         <div
           className={`relative ${
             scrolled
@@ -78,7 +78,7 @@ export default function Header() {
 
               <button
                 onClick={() => setIsShowNav((prev) => !prev)}
-                className={`cursor-pointer lg:hidden z-[100]  mr-6 ${
+                className={`cursor-pointer lg:hidden z-[999]  mr-6 ${
                   scrolled
                     ? isShowNav
                       ? "text-white"
@@ -94,7 +94,7 @@ export default function Header() {
               </button>
               {/* for mobile */}
               <div
-                className={`lg:hidden absolute z-99 top-0 right-0  transition-all duration-300 header-gradient w-full h-screen  origin-top ${
+                className={`lg:hidden absolute z-[1000] top-0 right-0  transition-all duration-300 header-gradient w-full h-screen  origin-top ${
                   isShowNav
                     ? "translate-x-0 opacity-100"
                     : "translate-x-full opacity-0"
@@ -122,6 +122,19 @@ export default function Header() {
                       </li>
                     ))}
                   </ul>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=8801898334733"
+                    className="w-fit text-nowrap flex items-center justify-center gap-2  px-8 py-2 font-medium bg-green text-white  cursor-pointer hover:bg-black hoverEffect text-lg rounded-md absolute bottom-10 left-1/2 -translate-x-1/2"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon
+                      icon="akar-icons:whatsapp-fill"
+                      width="20"
+                      height="20"
+                    />
+                    <span>+8801898-334733</span>
+                  </a>
                 </div>
               </div>
             </div>

@@ -131,16 +131,18 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/royalsafaritour"
                   className="bg-green p-4 block transtion-all duration-300 rounded-sm hover:bg-black w-full h-full"
+                  target="_blank"
                 >
                   <Icon icon="uiw:facebook" width="18" height="18" />
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/royal.safari.tours?igsh=ZmU3YXkxbzdxMDlt"
                   className="bg-green p-4 block transtion-all duration-300 rounded-sm hover:bg-black  w-full h-full"
+                  target="_blank"
                 >
                   <Icon icon="mdi:instagram" width="21" height="21" />
                 </a>
@@ -192,16 +194,18 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="https://www.facebook.com/royalsafaritour"
                 className="bg-green p-4 block h-full w-full transtion-all duration-300 rounded-sm hover:bg-black hover:scale-110"
+                target="_blank"
               >
                 <Icon icon="uiw:facebook" width="18" height="18" />
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="https://www.instagram.com/royal.safari.tours?igsh=ZmU3YXkxbzdxMDlt"
                 className="bg-green p-4 block h-full w-full transtion-all duration-300 rounded-sm hover:bg-black hover:scale-110"
+                target="_blank"
               >
                 <Icon icon="mdi:instagram" width="21" height="21" />
               </a>
